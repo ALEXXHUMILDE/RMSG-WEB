@@ -1,0 +1,42 @@
+.container-inicio {
+  margin-top: 20%;
+  max-width: 600px;
+  margin: 8% auto;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.description p {
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (320px < width < 1200px) {
+  .container-inicio {
+    margin: 20% auto;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
