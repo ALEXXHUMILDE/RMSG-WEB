@@ -10,9 +10,9 @@ La Red de Monitoreo Sísmico Global (RMSG) es una plataforma en línea que propo
 
 ## Cómo utilizar:
 
-1. Visita [RMSG](https://www.rmsg.netlify.app) en tu navegador web.
+1. Visita [RMSG](https://rmsg.netlify.app) en tu navegador web.
    
-2. Explora el [mapa interactivo](https://www.rmsg.netlify.app/mapa-interactivo) para ver los sismos registrados recientemente.
+2. Explora el [mapa interactivo](https://rmsg.netlify.app/mapa-interactivo) para ver los sismos registrados recientemente.
    
 3. Sintoniza las transmisiones en vivo para observar la actividad sísmica en tiempo real.
 
@@ -28,7 +28,7 @@ La Red de Monitoreo Sísmico Global (RMSG) es una plataforma en línea que propo
 
 ### Mapa Interactivo
 
-- (09/05/24) Se ha cambiado el icono de la ubicacion del usuario, de un PIN a un icono de un usuario mas elegante.
+- (09/05/24) Se ha cambiado el icono de la ubicación, de un PIN a un icono de un usuario más elegante y las atribuciones.
 
 ### Directos 24/7
 

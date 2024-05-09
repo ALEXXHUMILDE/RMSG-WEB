@@ -5,7 +5,7 @@ let streets = L.tileLayer(
   "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}",
   {
     attribution:
-      'Mapa obtenido gracias a &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> y a &copy <a href="https://www.mapbox.com/">Mapbox</a>, Datos obtenidos gracias a <a href="https://earthquake.usgs.gov/earthquakes/map/">USGS<a/> | <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+      ' <a href="https://rmsg.netlify.app/"> Red de Monitoreo Sísmico Global </a>',
     maxZoom: 18,
     accessToken: APIKEY,
   }
@@ -15,7 +15,7 @@ let satelliteStreets = L.tileLayer(
   "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}",
   {
     attribution:
-      'Mapa obtenido gracias a &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> y a &copy <a href="https://www.mapbox.com/">Mapbox</a>, Datos obtenidos gracias a <a href="https://earthquake.usgs.gov/earthquakes/map/">USGS<a/> | <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+      ' <a href="https://rmsg.netlify.app/"> Red de Monitoreo Sísmico Global </a>',
     maxZoom: 18,
     accessToken: APIKEY,
   }
@@ -25,7 +25,7 @@ let dark = L.tileLayer(
   "https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}",
   {
     attribution:
-      'Mapa obtenido gracias a &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> y a &copy <a href="https://www.mapbox.com/">Mapbox</a>, Datos obtenidos gracias a <a href="https://earthquake.usgs.gov/earthquakes/map/">USGS<a/> | <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+      ' <a href="https://rmsg.netlify.app/"> Red de Monitoreo Sísmico Global </a>',
     maxZoom: 18,
     accessToken: APIKEY,
   }
@@ -39,13 +39,11 @@ navigator.geolocation.getCurrentPosition(function (position) {
 
   console.log(lat - lon);
 
-  // Define el icono personalizado para la ubicación del usuario
   const userIcon = L.icon({
-    iconUrl: '../../src/img/usuario.png',
+    iconUrl: '../../src/img/usuario.webp',
     iconSize: [30, 30],
   });
 
-  // Crea y agrega el marcador de la ubicación del usuario con el icono personalizado
   L.marker([lat, lon], { icon: userIcon }).addTo(map).bindPopup("¡Estás aquí!").openPopup();
 });
 
