@@ -39,8 +39,16 @@ navigator.geolocation.getCurrentPosition(function (position) {
 
   console.log(lat - lon);
 
-  L.marker([lat, lon]).addTo(map).bindPopup("¡Estás aquí!").openPopup();
+  // Define el icono personalizado para la ubicación del usuario
+  const userIcon = L.icon({
+    iconUrl: '../../src/img/usuario.png',
+    iconSize: [30, 30],
+  });
+
+  // Crea y agrega el marcador de la ubicación del usuario con el icono personalizado
+  L.marker([lat, lon], { icon: userIcon }).addTo(map).bindPopup("¡Estás aquí!").openPopup();
 });
+
 
 let baseMaps = {
   Calles: streets,

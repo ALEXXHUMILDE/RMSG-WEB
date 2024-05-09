@@ -20,4 +20,22 @@ La Red de Monitoreo Sísmico Global (RMSG) es una plataforma en línea que propo
 
 ¡Agradecemos las contribuciones de los colaboradores para mejorar la RMSG!
 
+## Actualizaciones:
+
+### Inicio
+
+- No ha habido cambios recientes.
+
+### Mapa Interactivo
+
+- (09/05/24) Se ha cambiado el icono de la ubicacion del usuario, de un PIN a un icono de un usuario mas elegante.
+
+### Directos 24/7
+
+- No ha habido cambios recientes.
+
+### Colaboradores
+
+- No ha habido cambios recientes.
+
 ¡Gracias por usar la Red de Monitoreo Sísmico Global!
