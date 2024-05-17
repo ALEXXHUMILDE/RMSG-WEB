@@ -30,6 +30,8 @@ La Red de Monitoreo Sísmico Global (RMSG) es una plataforma en línea que propo
 
 - (09/05/24) Se ha cambiado el icono de la ubicación, de un PIN a un icono de un usuario más elegante y las atribuciones.
 
+- (16/05/24) Se ha agregado una tabla al lado del mapa donde se podrá ver la magnitud, epicentro y fecha y hora del último mes, y también se han cambiado los colores de la magnitud de los sismos a unos un poco serios pero coloridos.
+
 ### Directos 24/7
 
 - No ha habido cambios recientes.

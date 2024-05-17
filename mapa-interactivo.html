@@ -85,14 +85,32 @@
     </nav>
   </header>
 
-  <div id="mapid"></div>
-  <div id="menu"></div>
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
+    <div id="map-container">
+        <div id="mapid"></div>
+        <div id="menu">
+            <table id="earthquakeTable">
+                <thead>
+                    <tr>
+                        <th>Magnitud</th>
+                        <th>Epicentro</th>
+                        <th>Fecha y Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="legend">
+    </div>
 
-  <script src="src/js/ultimos-sismos.js"></script>
-  <script src="src/js/header.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    <script src="src/js/ultimos-sismos.js"></script>
+    <script src="src/js/header.js"></script>
+
 </body>
 
 </html>
